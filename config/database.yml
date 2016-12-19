@@ -1,0 +1,10 @@
+development: &default
+  adapter: postgis
+  encoding: UTF8
+  database: Rails.application.secrets.database_name
+  pool: 5
+  username: Rails.application.secrets.database_user
+  password: Rails.application.secrets.database_password
+  timeout: 5000
+  schema_search_path: "public,postgis"
+  script_dir: /Applications/Postgres.app/Contents/Versions/9.3/share/postgresql/contrib/postgis-2.1
