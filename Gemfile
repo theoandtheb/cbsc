@@ -19,11 +19,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 group :development do
-	gem 'capistrano', '~> 3.2.1'
-	gem 'capistrano-bundler', '~> 1.1.2'
-	gem 'capistrano-rails', '~> 1.1.1'
+	gem 'capistrano',   require: false
+	gem 'capistrano-bundler',   require: false
+	gem 'capistrano-rails',   require: false
 	gem 'capistrano-rbenv', github: "capistrano/rbenv"
-	gem 'capistrano-secrets-yml', '~> 1.0.0'
+	gem 'capistrano-secrets-yml'
   gem 'capistrano3-puma',   require: false
 end
 
