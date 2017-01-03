@@ -1,0 +1,21 @@
+current directory: /Users/mac/cbsc/vendor/cache/ruby/2.3.0/gems/rgeo-0.5.3/ext/proj4_c_impl
+/Users/mac/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170103-28253-1a277si.rb extconf.rb
+checking for proj_api.h... yes
+checking for pj_init_plus() in proj_api.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/mac/cbsc/vendor/cache/ruby/2.3.0/extensions/x86_64-darwin-15/2.3.0-static/rgeo-0.5.3/mkmf.log
+
+current directory: /Users/mac/cbsc/vendor/cache/ruby/2.3.0/gems/rgeo-0.5.3/ext/proj4_c_impl
+make "DESTDIR=" clean
+
+current directory: /Users/mac/cbsc/vendor/cache/ruby/2.3.0/gems/rgeo-0.5.3/ext/proj4_c_impl
+make "DESTDIR="
+compiling main.c
+linking shared-object rgeo/coord_sys/proj4_c_impl.bundle
+
+current directory: /Users/mac/cbsc/vendor/cache/ruby/2.3.0/gems/rgeo-0.5.3/ext/proj4_c_impl
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 proj4_c_impl.bundle ./.gem.20170103-28253-xbm8io/rgeo/coord_sys

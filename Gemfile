@@ -18,11 +18,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-group :development do
+group :development, :production do
 	gem 'capistrano',   require: false
 	gem 'capistrano-bundler',   require: false
 	gem 'capistrano-rails',   require: false
-	gem 'capistrano-rbenv', github: "capistrano/rbenv"
+	# gem 'capistrano-rbenv', github: "capistrano/rbenv"
 	gem 'capistrano-secrets-yml'
   gem 'capistrano3-puma',   require: false
 end
