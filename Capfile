@@ -4,7 +4,7 @@ require 'capistrano/deploy'
 
 # require 'capistrano/rbenv'
 require 'capistrano/secrets_yml'
-require 'capistrano/rails'
+require 'capistrano/rails/migrations'
 require 'capistrano/puma'
 require 'capistrano/bundler'
 # set :rbenv_type, :user # or :system, depends on your rbenv setup

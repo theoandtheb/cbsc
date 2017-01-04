@@ -8,3 +8,14 @@ development: &default
   timeout: 5000
   schema_search_path: "public,postgis"
   script_dir: /Applications/Postgres.app/Contents/Versions/9.3/share/postgresql/contrib/postgis-2.1
+
+production:
+  adapter: postgis
+  encoding: UTF8
+  database: Rails.application.secrets.database_name
+  password: Rails.application.secrets.database_password
+  username: Rails.application.secrets.database_user
+  pool: 5
+  timeout: 5000
+  schema_search_path: "public,postgis"
+  script_dir: /usr/share/postgresql/9.3/contrib/postgis-2.1
