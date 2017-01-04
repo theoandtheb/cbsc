@@ -23,6 +23,7 @@ group :development, :production do
 	gem 'capistrano-bundler',   require: false
 	gem 'capistrano-rails',   require: false
 	# gem 'capistrano-rbenv', github: "capistrano/rbenv"
+  gem 'capistrano-postgresql'
 	gem 'capistrano-secrets-yml'
   gem 'capistrano3-puma',   require: false
 end
