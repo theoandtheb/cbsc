@@ -14,7 +14,7 @@ production:
   encoding: UTF8
   database: Rails.application.secrets.database_name
   password: Rails.application.secrets.database_password
-  username: Rails.application.secrets.database_user
+  username: deploy
   pool: 5
   timeout: 5000
   schema_search_path: "public,postgis"
