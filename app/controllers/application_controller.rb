@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::API
 
 	def got_it
-		puts params
 		@full_time = Time.now
 		@date = @full_time.strftime("%Y/%m/%d")
 		@time = @full_time.strftime("%H:%M")
