@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.7.1'
+lock '3.7.2'
 
 set :application, 'cbsc'
 set :repo_url, 'git@github.com:theoandtheb/cbsc.git'
